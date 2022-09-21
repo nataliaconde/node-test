@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alysson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ronin-mocks": "^0.1.11",
+    "ronin-server": "^0.1.3"
+  }
 }
