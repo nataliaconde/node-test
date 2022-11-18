@@ -11,6 +11,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Application test!!!!! ');
 });
+throw new Error();
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
