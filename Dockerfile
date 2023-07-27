@@ -1,3 +1,4 @@
+
 # syntax=docker/dockerfile:1
 
 FROM node:16
@@ -12,5 +13,7 @@ RUN npm install --production
 
 COPY . .
 
+# Expose port 3000
+EXPOSE 3000
 
 CMD [ "node", "index.js" ]
